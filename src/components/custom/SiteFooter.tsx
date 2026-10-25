@@ -110,7 +110,7 @@ export default function SiteFooter({
                 className="inline-flex rounded-lg transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#F07883]"
               >
                 <Image
-                  src="/images/google-play-badge.png"
+                  src={Assets.images.googlePlayBadge}
                   alt="Get it on Google Play"
                   width={194}
                   height={72}
@@ -122,7 +122,7 @@ export default function SiteFooter({
         </div>
 
         {/* Row 2: Navigation + People & Newsletter */}
-        <div className=" border-b border-white/15 py-8 flex justify-between">
+        <div className="flex flex-col justify-between gap-10 border-b border-white/15 py-8 md:flex-row md:gap-8">
           <div>
             <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.16em] text-white">
               People &amp; Newsletter
@@ -136,7 +136,7 @@ export default function SiteFooter({
                 className="group flex items-center gap-3 transition-colors hover:text-[#F07883]"
               >
                 <Image
-                  src="/images/kuhu.png"
+                  src={Assets.images.kuhu}
                   alt=""
                   width={40}
                   height={40}
@@ -155,7 +155,7 @@ export default function SiteFooter({
                 className="group flex items-center gap-3 transition-colors hover:text-[#F07883]"
               >
                 <Image
-                  src="/images/archna.png"
+                  src={Assets.images.archna}
                   alt=""
                   width={40}
                   height={40}
@@ -174,7 +174,7 @@ export default function SiteFooter({
                 className="group flex items-center gap-3 transition-colors hover:text-[#F07883]"
               >
                 <Image
-                  src="/images/shivam.png"
+                  src={Assets.images.shivam}
                   alt=""
                   width={40}
                   height={40}
@@ -193,7 +193,7 @@ export default function SiteFooter({
                 className="group flex items-center gap-3 transition-colors hover:text-[#F07883]"
               >
                 <Image
-                  src="/images/Parenting%20Role%20Play_%20Guilty!.png"
+                  src={Assets.images.parentingRoles}
                   alt=""
                   width={40}
                   height={40}

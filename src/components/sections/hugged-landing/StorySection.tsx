@@ -22,7 +22,7 @@ export const stories = [
     artAlt: "A HUGGED grandparent character smiling warmly",
     color: "teal",
     badge: "A village for every stage",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "feed",
@@ -37,7 +37,7 @@ export const stories = [
     artAlt: "A HUGGED parent character taking a quiet moment",
     color: "coral",
     badge: "Your experience matters",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "families",
@@ -52,7 +52,7 @@ export const stories = [
     artAlt: "A HUGGED parent character ready to connect",
     color: "cream",
     badge: "Families are created by HUGGED",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "resources",
@@ -67,7 +67,7 @@ export const stories = [
     artAlt: "A HUGGED caregiver character offering support",
     color: "coral",
     badge: "Free and paid resources",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
 
   {
@@ -83,7 +83,7 @@ export const stories = [
     artAlt: "A HUGGED baby character learning through play",
     color: "cream",
     badge: "Learning through everyday play",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "independent-eating",
@@ -98,7 +98,7 @@ export const stories = [
     artAlt: "A HUGGED baby character sitting happily",
     color: "teal",
     badge: "A supported journey, not a promise",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "webinars",
@@ -113,7 +113,7 @@ export const stories = [
     artAlt: "The HUGGED mascot greeting parents",
     color: "coral",
     badge: "Explore available sessions",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
   {
     id: "experts",
@@ -129,7 +129,7 @@ export const stories = [
     artAlt: "A HUGGED parent character looking reassured",
     color: "teal",
     badge: "Consultation requests are coordinated",
-    hyperlink: PLAY_STORE_URL,
+    hyperlink: "#hero",
   },
 ];
 
@@ -183,7 +183,6 @@ export default function StorySection({
           <a
             href={story.hyperlink}
             className="mt-7 inline-flex items-center gap-2 rounded-full border border-[#ff6f61] bg-white px-5 py-3 text-sm font-bold text-[#ff6f61] "
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h3>{story.cta}</h3>

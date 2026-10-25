@@ -2,7 +2,7 @@ export const Assets = {
   // Logos
   logo: "/hugged-logo.png",
   logo3D: "/hugged-3d-logo.png",
-  logoTM: "/Hugged_TM.png",
+  logoTM: "/hugged-tm.png",
 
   // Social Icons
   social: {
@@ -116,9 +116,10 @@ export const Assets = {
     archna: "/images/archna.png",
     shivam: "/images/shivam.png",
     kuhu: "/images/kuhu.png",
-    parentingRoles: "/images/Parenting Role Play_ Guilty!.png",
-    partnering: "/images/partnering with each other_.png",
-    parentingStyles: "/images/parenting styles.png",
+    parentingRoles: "/images/parenting-role-play-guilty.png",
+    partnering: "/images/partnering-with-each-other.png",
+    parentingStyles: "/images/parenting-styles.png",
+    googlePlayBadge: "/images/google-play-badge.png",
   },
 
   // Fonts

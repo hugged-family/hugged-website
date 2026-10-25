@@ -43,7 +43,7 @@ export default function Hero({
             className="mt-7 hidden w-fit items-center gap-3 rounded-xl border-2 border-[#333333] bg-white p-3 shadow-sm sm:flex"
           >
             <Image
-              src="/images/hugged-play-store-qr.svg"
+              src={Assets.app.playStoreQR}
               alt=""
               width={88}
               height={88}
@@ -55,7 +55,7 @@ export default function Hero({
                 <h3 className="font-bold text-left">Scan to Join</h3>
               </span>
               <Image
-                src="/images/google-play-badge.png"
+                src={Assets.images.googlePlayBadge}
                 alt="Get it on Google Play"
                 width={194}
                 height={72}

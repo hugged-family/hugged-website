@@ -22,8 +22,13 @@ import {
 import { ChevronRight, CheckCircle2 } from "lucide-react";
 import { useTranslations } from "@/lib/locale-context";
 import Image from "next/image";
+import { Assets } from "@/lib/assets";
 
-export function ComposeNav({ onNavigate }: { onNavigate: (id: string) => void }) {
+export function ComposeNav({
+  onNavigate,
+}: {
+  onNavigate: (id: string) => void;
+}) {
   const messages = useTranslations();
   const [open, setOpen] = useState(false);
   const navItems = [
@@ -42,7 +47,7 @@ export function ComposeNav({ onNavigate }: { onNavigate: (id: string) => void })
           className="flex items-center gap-3 text-left"
         >
           <span className="flex h-10 w-10 items-center justify-center rounded-full bg-coral-soft text-coral shadow-[0_8px_28px_rgba(255,122,107,0.16)] font-semibold">
-            <Image src="/hugged-logo.png" alt="Hugged logo" width={20} height={20} />
+            <Image src={Assets.logo} alt="Hugged logo" width={20} height={20} />
           </span>
           <span>
             <span className="block font-heading text-lg font-semibold tracking-tight text-foreground">
@@ -71,8 +76,8 @@ export function ComposeNav({ onNavigate }: { onNavigate: (id: string) => void })
                 </DialogTitle>
                 <DialogDescription className="text-sm leading-7 text-neutral-600">
                   Hugged is built for mothers who want emotional support,
-                  structured guidance, and a community that does not ask them
-                  to perform perfection.
+                  structured guidance, and a community that does not ask them to
+                  perform perfection.
                 </DialogDescription>
               </DialogHeader>
               <div className="grid gap-3 rounded-[28px] bg-white/70 p-4 ring-1 ring-foreground/10">
@@ -108,7 +113,10 @@ export function ComposeNav({ onNavigate }: { onNavigate: (id: string) => void })
               Menu
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="border-border/80 bg-background p-5">
+          <SheetContent
+            side="right"
+            className="border-border/80 bg-background p-5"
+          >
             <SheetHeader className="px-0 pt-2">
               <SheetTitle className="font-heading text-2xl">Hugged</SheetTitle>
             </SheetHeader>
