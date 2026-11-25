@@ -1,0 +1,14 @@
+# Environment files can contain server-side secrets.
+.env*
+
+# Local dependencies and generated output.
+node_modules
+.next
+out
+dist
+coverage
+
+# Repository and local tooling metadata.
+.git
+.gitignore
+.vscode
